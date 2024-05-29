@@ -1,5 +1,5 @@
 <?php
 
-    require 'kernel.php';
+    require 'config/kernel.php';
 
 ?>

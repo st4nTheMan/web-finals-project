@@ -1,8 +1,8 @@
 <?php
 
     session_start();
-    require('config.php');
-    require('Connection.php');
+    require('config/config.php');
+    require('config/Connection.php');
 
     spl_autoload_register(function($class) {
         if(file_exists('controller/'.$class.'.php')) {
