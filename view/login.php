@@ -1,38 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        <div id="login">
-            <h3>Login Form</h3>
-            <div class="container">
-                <div id="login-row">
-                    <div id="login-column">
-                        <div class="login-form">
-                            <form action="" method="POST" class="form" id="login-form">
-                                <h3>Login</h3>
-                                <div class="form-group">
-                                    <label for="username" class="txt-info">Username: </label><br>
-                                    <input type="text" name="username" id="username" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <label for="password" class="txt-info">Password: </label><br>
-                                    <input type="password" name="password" id="password" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <input type="submit" name="LoginSubmit" value="Login"/>
-                                </div>
-                                <div id="reg_link">
-                                    <a href="?register=true" class="text-info">Register here</a>
-                                </div>
-                            </form>
-                        </div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="../css/login_style.css">
+</head>
+
+<body>
+    <div id="login">
+        <div class="container">
+            <div class="login-form">
+                <form action="" method="POST" class="form" id="login-form">
+                    <h1>Login</h1>
+                    <div class="form-group">
+                        <input type="text" name="username" id="username" placeholder="Username" required>
                     </div>
-                </div>
+                    <div class="form-group">
+                        <input type="password" name="password" id="password" placeholder="Password" required>
+                    </div>
+                    <button class="btn" type="submit" name="LoginSubmit" value="Login"> Login</button>
+                    <div id="reg_link">
+                        <p>Don't have an account? <a href="?register=true" class="text-info">Register here</a> </p>
+                    </div>
+                </form>
             </div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
