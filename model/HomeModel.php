@@ -4,9 +4,15 @@
         public $db;
 
         public function checkUserLogin($username, $password) {
-            $query = " SELECT count(*) FROM users_table WHERE username='{$username}' AND password='{$password}'";
-            $stmt = $this->db->prepare($query)->execute();
-            return $stmt;
+            $query = "SELECT count(*) as count FROM users_table WHERE username=? AND password=?";
+            $stmt = $this->db->prepare($query);
+            $stmt->bind_param("ss", $username, $password);
+            $stmt->execute();
+            $stmt->bind_result($count);
+            $stmt->fetch();
+            $stmt->close();
+        
+            return $count;
         }
         
         public function userRegister($firstName, $lastName, $username, $password) {
