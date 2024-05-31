@@ -5,6 +5,7 @@
         public $db;
 
         public function checkUserLogin($username, $password) {
+            $count = null;
 
             $query = "SELECT count(*) as count FROM users_table WHERE username=? AND password=?";
             $stmt = $this->db->prepare($query);
