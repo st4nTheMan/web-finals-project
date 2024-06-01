@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #254336;
+}
+
+.container {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  display: block;
+  background-color: #fff;
+}
+
+.g-cash-logo {
+  background-color: #003285;
+  height: 200px;
+}
+
+.g-cash-logo h6 {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.form-container {
+  background-color: #e2dfd0;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  background-color: #fff;
+  width: 60%;
+  height: 400px;
+  margin-top: -30%;
+  border: none;
+  border-radius: 10px;
+}
+
+.amount-lbl {
+  padding-left: 20px;
+}
+
+.amount-selection {
+  width: 90px;
+  padding-left: 10px;
+}
+
+.form h5 {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.input-mobile-num {
+  font-size: 12px;
+  padding-left: 100px;
+}
+
+.mobile-number {
+  border: none;
+  background: transparent;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.ph-num {
+  padding-left: 70px;
+  font-size: 12px;
+  border: none;
+}
+
+.confirm-btn {
+  width: 50%;
+  height: 40px;
+  margin-left: 90px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 40px;
+  background-color: #003285;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.back-btn {
+  border: none;
+  background: transparent;
+  width: 90px;
+  height: 30px;
+  display: flex;
+  font-size: 1rem;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.back-btn:hover {
+  background-color: #eeeeee;
+}
