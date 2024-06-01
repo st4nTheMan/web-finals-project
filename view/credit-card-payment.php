@@ -39,19 +39,11 @@
                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
                     <button class="credit-pay-btn">Pay</button>
                     <br />
-<<<<<<< HEAD
-<<<<<<< HEAD
                     <div class="credit-back-btn">
-                        <a href="#">
-                            < Go Back</a>
-=======
-                    <div class="back-btn">
-                        <a href="?action=payment">< Go Back</a>
->>>>>>> 42d3a580a941041ddcf3403d2cc10132683cb96c
-=======
-                    <div class="back-btn">
-                        <a href="?action=payment">< Go Back</a>
->>>>>>> 42d3a580a941041ddcf3403d2cc10132683cb96c
+                        <div class="back-btn">
+                            <a href="?action=payment">
+                                < Go Back</a>
+                        </div>
                     </div>
                 </form>
             </div>

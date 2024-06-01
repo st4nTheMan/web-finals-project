@@ -105,8 +105,3 @@ body {
   margin-left: 15px;
   color: black;
 }
-
-.credit-back-btn:hover {
-  background-color: #eeeeee;
-  cursor: pointer;
-}

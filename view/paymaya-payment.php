@@ -34,16 +34,8 @@
                     <br />
                     <button class="paymaya-login-btn">Login</button>
                     <div class="back-btn">
-<<<<<<< HEAD
-<<<<<<< HEAD
-                        <a href="#">
+                        <a href="?action=payment">
                             < Go Back</a>
-=======
-                        <a href="?action=payment">< Go Back</a>
->>>>>>> 42d3a580a941041ddcf3403d2cc10132683cb96c
-=======
-                        <a href="?action=payment">< Go Back</a>
->>>>>>> 42d3a580a941041ddcf3403d2cc10132683cb96c
                     </div>
                 </form>
             </div>
