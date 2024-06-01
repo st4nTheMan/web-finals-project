@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal</title>
-    <link rel="stylesheet" href="css/dashboard_style.css">
+    <link rel="stylesheet" href="../css/dashboard_style.css">
 </head>
 
 <body>
     <nav class="nav-bar">
-        <a href="?logout=true">Logout</a>
+        <a href="?action=logout">Logout</a>
         <h1>Pledge Portal System</h1>
     </nav>
     <div class="container">
@@ -22,7 +22,7 @@
                 <a href="#">Transaction History</a>
             </div>
             <div class="side-nav-links">
-                <a href="#payment">Pledge Payment</a>
+                <a href="?action=payment">Pledge Payment</a>
             </div>
             <div class="side-nav-links">
                 <a href="#">Pending Payments</a>

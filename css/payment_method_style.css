@@ -67,7 +67,15 @@ body {
   margin-left: 40px;
 }
 
-.back-btn:hover {
-  cursor: pointer;
-  background-color: #686D76;
+.back-btn a {
+  border: none;
+  text-decoration: none;
+  background: transparent;
+  width: 50%;
+  height: 20px;
+  display: flex;
+  font-size: 1rem;
+  margin-top: 90px;
+  margin-left: 40px;
+  color: black;
 }

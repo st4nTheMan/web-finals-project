@@ -10,7 +10,7 @@
         public static function connect($config) {
             try {
                 if(!self::$connection) {
-                    $conn = new mysqli($config['server'], $config['dbuser'], $config['dbpass'], $config['dbname']);
+                    $conn = new mysqli($config['db']['server'], $config['db']['dbuser'], $config['db']['dbpass'], $config['db']['dbname']);
                     if ($conn->connect_error) {
                         die("Connection failed: " . $conn->connect_error);
                     }
