@@ -1,4 +1,3 @@
-
 <?php
 
     class HomeModel {
@@ -22,8 +21,11 @@
             $query = "INSERT INTO users_table (first_name, last_name, username, password) VALUES ('".$firstName."', '".$lastName."','".$username."','".
             $password."')";
             $stmt = $this->db->query($query);
-            return 1;
+            if ($stmt) {
+                return true; // Registration successful
+            } else {
+                return false; // Registration failed
+            }
         }
     }
-
 ?>
