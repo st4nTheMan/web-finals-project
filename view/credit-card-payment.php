@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Credit Card</title>
-    <link rel="stylesheet" href="css/credit_card_payment.css" />
+    <link rel="stylesheet" href="../css/credit_card_payment_style.css" />
 </head>
 
 <body>
@@ -15,7 +15,7 @@
                 <h1>Credit Card Payment</h1>
             </div>
             <div class="credit-card-form">
-                <form action="">
+                <form action="?action=credit">
                     <br />
                     <label class="credit-input">Card Holder Name</label>
                     <br />
@@ -39,8 +39,20 @@
                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
                     <button class="credit-pay-btn">Pay</button>
                     <br />
-                    <button class="credit-back-btn">
-                        < Go back</button>
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    <div class="credit-back-btn">
+                        <a href="#">
+                            < Go Back</a>
+=======
+                    <div class="back-btn">
+                        <a href="?action=payment">< Go Back</a>
+>>>>>>> 42d3a580a941041ddcf3403d2cc10132683cb96c
+=======
+                    <div class="back-btn">
+                        <a href="?action=payment">< Go Back</a>
+>>>>>>> 42d3a580a941041ddcf3403d2cc10132683cb96c
+                    </div>
                 </form>
             </div>
         </div>

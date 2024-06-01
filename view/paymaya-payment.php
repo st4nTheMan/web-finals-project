@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PayMaya</title>
-    <link rel="stylesheet" href="css/paymaya_payment_style.css" />
+    <link rel="stylesheet" href="../css/paymaya_payment_style.css" />
 </head>
 
 <body>
@@ -15,7 +15,7 @@
                 <div class="paymaya-logo">
                     <h1>PayMaya</h1>
                 </div>
-                <form action="">
+                <form action="?action=paymaya">
                     <br>
                     <label class="login-note">Login to your PayMaya Account</label>
                     <br />
@@ -33,8 +33,18 @@
                     <input type="password" class="paymaya-input-fields" placeholder="Password" />
                     <br />
                     <button class="paymaya-login-btn">Login</button>
-                    <button class="back-btn" onclick="history.back()">
-                        < Go Back</button>
+                    <div class="back-btn">
+<<<<<<< HEAD
+<<<<<<< HEAD
+                        <a href="#">
+                            < Go Back</a>
+=======
+                        <a href="?action=payment">< Go Back</a>
+>>>>>>> 42d3a580a941041ddcf3403d2cc10132683cb96c
+=======
+                        <a href="?action=payment">< Go Back</a>
+>>>>>>> 42d3a580a941041ddcf3403d2cc10132683cb96c
+                    </div>
                 </form>
             </div>
         </div>

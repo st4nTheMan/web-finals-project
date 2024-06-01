@@ -28,13 +28,21 @@ body {
   text-align: center;
 }
 
-.user-payment-option {
-  position: absolute;
-  width: 600px;
-  height: 500px;
-  background-color: #dad3be;
+.payment-selection a {
+  display: flex;
+  padding-top: 15px;
+  padding-left: 32%;
+  text-decoration: none;
+  width: 80%;
+  height: 60px;
+  margin-top: 60px;
+  margin-left: 60px;
+  font-size: 1rem;
   border: none;
-  border-radius: 10px;
+  font-weight: 600;
+  background-color: #028391;
+  border-radius: 40px;
+  color: black;
 }
 
 .btn {
@@ -56,18 +64,20 @@ body {
   background-color: #5c88c4;
 }
 
-.back-btn {
+.back-btn a {
   border: none;
+  text-decoration: none;
   background: transparent;
-  width: 90px;
+  width: 50%;
   height: 20px;
   display: flex;
   font-size: 1rem;
   margin-top: 90px;
   margin-left: 40px;
+  color: black;
 }
 
 .back-btn:hover {
   cursor: pointer;
-  background-color: #686d76;
+  background-color: #686D76;
 }

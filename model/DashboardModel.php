@@ -1,8 +1,9 @@
 <?php
 
-    class HomeModel {
+    class DashboardModel {
         public $db;
 
         
     }
+
 ?>

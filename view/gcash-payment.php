@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>G-Cash</title>
-    <link rel="stylesheet" href="./css/gcash_payment_style.css" />
+    <link rel="stylesheet" href="../css/gcash_payment_style.css" />
 </head>
 
 <body>
@@ -16,7 +16,7 @@
             </div>
             <div class="form-container">
                 <div class="form">
-                    <form action="">
+                    <form action="?action=gcash">
                         <br />
                         <label class="amount-lbl">Amount Due</label> &nbsp; &nbsp;
                         <input class="amount-selection" list="amount-to-pay" />
@@ -40,8 +40,20 @@
                         <br />
                         <br />
                         <button class="confirm-btn">Confirm</button>
-                        <button class="back-btn" onclick="history.back()">
-                            < Go Back</button>
+                        <div class="back-btn">
+<<<<<<< HEAD
+<<<<<<< HEAD
+                            <a href="#">
+                                < Go Back</a>
+                        </div>
+=======
+                                <a href="?action=payment">< Go Back</a>
+                            </div>
+>>>>>>> 42d3a580a941041ddcf3403d2cc10132683cb96c
+=======
+                                <a href="?action=payment">< Go Back</a>
+                            </div>
+>>>>>>> 42d3a580a941041ddcf3403d2cc10132683cb96c
                     </form>
                 </div>
             </div>
