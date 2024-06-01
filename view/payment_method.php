@@ -14,11 +14,10 @@
                 <div class="payment-option">
                     <form action="action=?payment" method="POST">
                         <h1>Payment Method</h1>
-                        <div class="user-payment-option">
+                        <div class="payment-selection">
                             <a href="?action=gcash">G-Cash</a>
-                            
-                            <button class="btn">PayMaya</button>
-                            <button class="btn">Credit Card</button>
+                            <a href="?action=paymaya">Paymaya</a>
+                            <a href="?action=credit">Credit Card</a>
                             <div class="back-btn">
                                 <a href="?action=login">< Go Back</a>
                             </div>

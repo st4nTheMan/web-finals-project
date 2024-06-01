@@ -10,6 +10,8 @@
 
         if($request == 'payment'){$route = "DashboardController@paymentAction";}
         if($request == 'gcash'){$route = "PaymentController@gCashPayment";}
+        if($request == 'paymaya'){$route = "PaymentController@paymayaPayment";}
+        if($request == 'credit'){$route = "PaymentController@creditCardPayment";}
     }
 
 ?>

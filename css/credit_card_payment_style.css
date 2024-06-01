@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #254336;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+  height: 500px;
+  display: block;
+  background-color: #fff;
+  border: none;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.credit-card-logo {
+  background-color: #d10363;
+  height: 100px;
+  border: none;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.credit-card-logo h1 {
+  text-align: center;
+  padding-top: 20px;
+  color: #fff;
+}
+
+.credit-input {
+  padding-left: 20px;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.credit-input-fields {
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+  width: 85%;
+  outline: none;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.credit-input-fields::placeholder {
+  padding-left: 15px;
+}
+
+.credit-input-fields-date-amount {
+  margin-left: 30px;
+  height: 30px;
+  outline: none;
+  width: 30%;
+  border: 1px solid rgb(0, 0, 0);
+  padding-left: 10px;
+}
+
+.credit-input-fields-code {
+  margin-left: 30px;
+  width: 40%;
+  height: 30px;
+  border: 1px solid rgb(0, 0, 0);
+  outline: none;
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+
+.credit-pay-btn {
+  width: 40%;
+  height: 30px;
+  background-color: #d10363;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.credit-pay-btn:hover {
+  background-color: #ff0080;
+  cursor: pointer;
+}
+
+.credit-back-btn {
+  border: none;
+  background: transparent;
+  width: 90px;
+  height: 30px;
+  display: flex;
+  font-size: 1rem;
+  margin-top: 70px;
+  margin-left: 15px;
+}
+
+.credit-back-btn:hover {
+  background-color: #eeeeee;
+  cursor: pointer;
+}

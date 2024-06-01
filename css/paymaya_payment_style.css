@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #254336;
+}
+
+.container {
+  position: relative;
+  width: 380px;
+  height: 500px;
+  display: block;
+  background-color: #fff;
+  border: none;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.paymaya-logo {
+  background-color: #379237;
+  height: 100px;
+  border: none;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.paymaya-logo h1 {
+  text-align: center;
+  padding-top: 20px;
+  color: #fff;
+}
+
+.login-note {
+  margin-left: 65px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.input-label {
+  padding-left: 50px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.paymaya-input-fields {
+  margin-left: 60px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  height: 30px;
+  width: 70%;
+  outline: none;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.paymaya-input-fields::placeholder {
+  padding-left: 15px;
+}
+
+.paymaya-login-btn {
+  margin-top: 10px;
+  margin-left: 60px;
+  width: 70%;
+  padding: 10px 0 10px 0;
+  background-color: #379237;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.paymaya-login-btn:hover {
+  background-color: #38e54d;
+  cursor: pointer;
+}
+
+.back-btn {
+  border: none;
+  background: transparent;
+  width: 90px;
+  height: 30px;
+  display: flex;
+  font-size: 1rem;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.back-btn:hover {
+  background-color: #eeeeee;
+  cursor: pointer;
+}
