@@ -28,8 +28,17 @@
                 $username = $_POST['username'];
                 $password = $_POST['password'];
         
-                $this->model->userRegister($firstName, $lastName, $username, md5($password));
-                $_SESSION['userLoginStatus'] = 1;
+                $registrationStatus = $this->model->userRegister($firstName, $lastName, $username, md5($password));
+                if ($registrationStatus) {
+                    // Set registration success session variable
+                    $_SESSION['registrationSuccess'] = true;
+                    // Redirect to login page
+                    header('Location: ?login=true');
+                    exit;
+                } else {
+                    // Registration failed, display error message
+                    echo "<script>alert('Registration failed');</script>";
+                }
             }
         
             $this->routerManager();
@@ -50,5 +59,5 @@
             return require('view/login.php');
         }
     }
-    
+
 ?>
