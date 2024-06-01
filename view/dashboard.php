@@ -30,7 +30,7 @@
         </div>
 
         <div class="user-main-content">
-            <h1>Welcome to the Portal,[User] </h1>
+            <h1>Welcome to the Portal, [User] </h1>
         </div>
     </div>
 </body>
