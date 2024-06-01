@@ -22,7 +22,7 @@
                 <a href="#">Transaction History</a>
             </div>
             <div class="side-nav-links">
-                <a href="#">Pledge Payment</a>
+                <a href="#payment">Pledge Payment</a>
             </div>
             <div class="side-nav-links">
                 <a href="#">Pending Payments</a>
