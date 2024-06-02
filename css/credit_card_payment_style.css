@@ -93,8 +93,9 @@ body {
   cursor: pointer;
 }
 
-.credit-back-btn {
+.credit-back-btn a {
   border: none;
+  text-decoration: none;
   background: transparent;
   width: 90px;
   height: 30px;
@@ -102,9 +103,5 @@ body {
   font-size: 1rem;
   margin-top: 70px;
   margin-left: 15px;
-}
-
-.credit-back-btn:hover {
-  background-color: #eeeeee;
-  cursor: pointer;
+  color: black;
 }

@@ -40,9 +40,12 @@
                         <br />
                         <br />
                         <button class="confirm-btn">Confirm</button>
-                        <div class="back-btn">
-                                <a href="?action=payment">< Go Back</a>
+                        <div class="gcash-back-btn">
+                            <div class="back-btn">
+                                <a href="#?action=payment">
+                                    < Go Back</a>
                             </div>
+                        </div>
                     </form>
                 </div>
             </div>
