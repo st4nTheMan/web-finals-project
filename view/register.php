@@ -28,11 +28,10 @@
                         </div>
                         <button class="btn" type="submit" name="RegisterSubmit" value="Register">Register</button>
                         <?php
-                        /*
+                        
                         if(isset($_SESSION['registrationSuccess']) && $_SESSION['registrationSuccess'] === true) {
-                            echo '<div class="success-message">Account successfully registered</div>';
                             unset($_SESSION['registrationSuccess']); // Clear the success session variable
-                        }*/
+                        }
                         ?>
                         <div id="reg_link">
                             <p>Already have an account? <a href="?action=login" class="text-info">Login here</a> </p>

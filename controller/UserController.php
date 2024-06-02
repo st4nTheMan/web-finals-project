@@ -50,7 +50,7 @@
                     // Set registration success session variable
                     $_SESSION['registrationSuccess'] = true;
                     // Redirect to login page
-                    header('Location: ?action=login');
+                    require('../view/login.php');
                     exit;
                 } else {
                     // Registration failed, display error message
